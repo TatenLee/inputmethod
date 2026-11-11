@@ -1,0 +1,45 @@
+{
+  "apk": "app/build/outputs/apk/debug/app-debug.apk",
+  "bytes": 289423842,
+  "sha256": "d287cc1c42f9b36ac109f673d739d76b1b09453fcb3ac034d816ea8c50966c8d",
+  "native_libraries": [
+    {
+      "name": "lib/arm64-v8a/libc++_shared.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "zip_offset": 2834432,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b"
+    },
+    {
+      "name": "lib/arm64-v8a/libsherpa-onnx-jni.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "zip_offset": 14237696,
+      "sha256": "b4a53d915c19cb6d09b1cdc9a8084be54419b647aab9097ffdfb46f30c3c4dd8"
+    },
+    {
+      "name": "lib/arm64-v8a/libjianxin_rime.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "zip_offset": 4210688,
+      "sha256": "db7c53be1d6c9245b461d118cc769271445a2a9ee03f817bcc12a6921c84b898"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

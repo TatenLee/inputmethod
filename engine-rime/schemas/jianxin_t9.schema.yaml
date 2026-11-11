@@ -1,0 +1,47 @@
+# 基础九键：由 RIME 拼写运算完成数字 → 拼音映射，可独立构建。
+# 与 CyIME 的增强九键算法不同；后续可通过 engine-rime 单独替换。
+schema:
+  schema_id: jianxin_t9
+  name: 简心九键
+  version: '0.1.0'
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 英文]
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - uniquifier
+menu:
+  page_size: 8
+speller:
+  alphabet: '23456789'
+  initials: '23456789'
+  delimiter: " '"
+  algebra:
+    - xlit/abcdefghijklmnopqrstuvwxyz/22233344455566677778889999/
+translator:
+  dictionary: jianxin
+  prism: jianxin_t9
+  user_dict: jianxin
+  enable_user_dict: true
+  enable_sentence: true
+  enable_completion: true
+punctuator:
+  half_shape:
+    ',': '，'
+    '.': '。'

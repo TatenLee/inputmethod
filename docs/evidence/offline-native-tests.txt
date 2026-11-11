@@ -1,0 +1,37 @@
+INSTRUMENTATION_STATUS: class=indi.tatenlee.inputmethod.NativeIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+indi.tatenlee.inputmethod.NativeIntegrationTest:
+INSTRUMENTATION_STATUS: test=bundledOfflineSpeechRecognizesPublicChineseFixture
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=indi.tatenlee.inputmethod.NativeIntegrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bundledOfflineSpeechRecognizesPublicChineseFixture
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=indi.tatenlee.inputmethod.NativeIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=rimePinyinAndNineKeyCommitChinese
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=indi.tatenlee.inputmethod.NativeIntegrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=rimePinyinAndNineKeyCommitChinese
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 10.583
+
+OK (2 tests)
+
+
+INSTRUMENTATION_CODE: -1

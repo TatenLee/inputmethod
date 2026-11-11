@@ -1,0 +1,12 @@
+{
+  "density": 2.625,
+  "systemBottomPx": 126,
+  "beforeExtraDp": 8,
+  "beforeRootHeightPx": 966,
+  "afterExtraDp": 32,
+  "afterRootHeightPx": 1029,
+  "afterPaddingBottomPx": 210,
+  "observedHeightIncreasePx": 63,
+  "expectedHeightIncreasePx": 63,
+  "passed": true
+}

@@ -1,0 +1,11 @@
+# Dictionary sources: rime-ice, pinned in third_party/versions.json.
+---
+name: jianxin
+version: '0.1.0'
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - cn_dicts/8105
+  - cn_dicts/base
+  - cn_dicts/ext
+...

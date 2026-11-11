@@ -1,0 +1,11 @@
+{
+  "expected": "875321",
+  "pasted": [
+    "例如：您的验证码为 123456，请勿告知他人。"
+  ],
+  "ordinary_receipt_did_not_replace_clipboard": false,
+  "device": "Android 15 ARM64 emulator",
+  "notification_copy_verified": false,
+  "status": "inconclusive development attempt before RECEIVE_SMS",
+  "note": "UI dump temporarily suppresses accessibility; no successful notification-only copy was established. Superseded by the passing direct-SMS receiver test."
+}

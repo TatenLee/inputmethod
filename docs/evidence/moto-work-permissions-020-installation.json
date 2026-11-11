@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-03",
+  "device": "Moto X40 XT2301-5 Android 16",
+  "installed_user": 0,
+  "work_user": 12,
+  "version": "0.2.0",
+  "apk": "profile-control-0.2.0-offline-debug.apk",
+  "sha256": "d2907c4e17a2838a8385987440fed6b985affd79bd19269a446643fdabc2d188",
+  "installed_hash_matches_artifact": true,
+  "activation": "Result: Bundle[{active=true, ready=true}]",
+  "native_work_permissions_ui_probe": "Passed: app groups and microphone options for work UID 1210604",
+  "final_apk_picker_physical_verification": "Awaiting device unlock",
+  "emulator_tests": "3 passed: work launcher visibility / profile identity guards / no-network policy",
+  "unit_tests": "3 passed",
+  "lint": "0 errors, 11 warnings",
+  "original_moto_entry_modified": false,
+  "app_permission_changes_by_tool": false,
+  "phone_navigation_changes_this_task": false
+}

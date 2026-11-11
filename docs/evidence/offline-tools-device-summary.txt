@@ -1,0 +1,3 @@
+profile-control 2 tests passed
+sms-code 6 tests passed
+Background SMS copy passed; ordinary SMS did not replace it.

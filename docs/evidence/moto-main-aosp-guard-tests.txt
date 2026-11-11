@@ -1,0 +1,7 @@
+guard_remove-main-aosp
+INSTRUMENTATION_RESULT: error=java.lang.SecurityException: Unexpected user
+INSTRUMENTATION_CODE: 0
+
+guard_remove-work-aosp
+INSTRUMENTATION_RESULT: error=java.lang.SecurityException: Unexpected user
+INSTRUMENTATION_CODE: 0

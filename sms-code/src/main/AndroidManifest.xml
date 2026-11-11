@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <queries><intent><action android:name="android.intent.action.SENDTO" /><data android:scheme="smsto" /></intent></queries>
+    <application android:label="简心验证码" android:icon="@drawable/ic_smscode" android:theme="@style/AppTheme"
+        android:allowBackup="false" android:usesCleartextTraffic="false" android:supportsRtl="true">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" /><category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CopyActivity" android:exported="false" android:excludeFromRecents="true"
+            android:noHistory="true" android:taskAffinity="indi.taten.smscode.copy" android:theme="@style/CopyTheme" />
+        <receiver android:name=".SmsReceiver" android:exported="true" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter><action android:name="android.provider.Telephony.SMS_RECEIVED" /></intent-filter>
+        </receiver>
+        <service android:name=".service.CodeAccessibilityService" android:exported="true" android:label="简心验证码"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/code_accessibility" />
+        </service>
+    </application>
+</manifest>

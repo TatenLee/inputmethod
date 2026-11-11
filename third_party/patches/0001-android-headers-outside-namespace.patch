@@ -1,0 +1,26 @@
+diff --git a/src/rime/gear/script_translator.cc b/src/rime/gear/script_translator.cc
+index 99e4511..8377dae 100644
+--- a/src/rime/gear/script_translator.cc
++++ b/src/rime/gear/script_translator.cc
+@@ -9,6 +9,10 @@
+ #include <algorithm>
+ #include <stack>
+ #include <cmath>
++#if defined(__ANDROID__)
++#include <android/log.h>
++#include <chrono>
++#endif
+ #include <boost/algorithm/string/join.hpp>
+ #include <boost/range/adaptor/reversed.hpp>
+ #include <rime/common.h>
+@@ -34,9 +38,7 @@
+ namespace rime {
+ 
+ // 增量命中/回退诊断日志直出 logcat（glog 未桥接 android log）
+-#if defined(__ANDROID__)
+-#include <android/log.h>
+-#include <chrono>
++#if defined(__ANDROID__) && defined(JIANXIN_RIME_DIAGNOSTICS)
+ #define T9_INC_LOG(fmt, ...)                                         \
+   __android_log_print(ANDROID_LOG_INFO, "RimePerf", "[T9Inc] " fmt,   \
+                       ##__VA_ARGS__)

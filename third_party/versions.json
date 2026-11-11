@@ -1,0 +1,53 @@
+{
+  "rime": {
+    "url": "https://github.com/ximeiorg/librime.git",
+    "revision": "1141816890b0d675dc1223f79cb0bd328d7b3fdd",
+    "submodules": {
+      "deps/leveldb": "99b3c03b3284f5886f9ef9a4ef703d57373e61be",
+      "deps/marisa-trie": "3e87d53b78e15f2f43783d5e376561a8c9722051",
+      "deps/opencc": "e9f3bb3fa1d058fe2fd4f096503222854bdc31ab",
+      "deps/yaml-cpp": "2f86d13775d119edbb69af52e5f566fd65c6953b"
+    },
+    "patches": [
+      {
+        "file": "patches/0001-android-headers-outside-namespace.patch",
+        "sha256": "a3894a73afdf0808f271b407acf82f2bcb0fb59beb5181968bc3a64935b29185"
+      }
+    ]
+  },
+  "dictionary": {
+    "url": "https://github.com/iDvel/rime-ice.git",
+    "revision": "9e66b0729083b37d217312294f6d516c8d7234be",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "cn_dicts/8105.dict.yaml",
+      "cn_dicts/base.dict.yaml",
+      "cn_dicts/ext.dict.yaml"
+    ]
+  },
+  "boost": {
+    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a"
+  },
+  "sherpa": {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-static-link-onnxruntime-1.13.8.aar",
+    "sha256": "b22c3fc1b6a45666d28892bb2f7694beeb77a8362d7ebd77c1a5431ec9435471"
+  },
+  "speech": [
+    {
+      "name": "model.int8.onnx",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/model.int8.onnx",
+      "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51"
+    },
+    {
+      "name": "tokens.txt",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/tokens.txt",
+      "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc"
+    }
+  ],
+  "reference": {
+    "cyime": "5eba9938c8e3eb3a789685cda2d9df68c03ed1c7",
+    "note": "Architecture reference only. The app UI and JNI bridge are independent. CyIME's T9 plugin and ranking patches are not included in 0.1.0."
+  }
+}

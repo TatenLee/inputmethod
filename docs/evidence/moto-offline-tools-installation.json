@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-01T10:35:15.712257+08:00",
+  "device": "Moto X40 / XT2301-5 / Android 16",
+  "packages": {
+    "indi.taten.workprofile": {
+      "version": "0.1.0",
+      "user": 0,
+      "sha256": "c6b89f7ebb37e7c50d26dbf6e3d92c3f9291142032329d8fb58b42ae6c461b89",
+      "installed_artifact_matches": true
+    },
+    "indi.taten.smscode": {
+      "version": "0.1.0",
+      "user": 0,
+      "sha256": "f748ac834d0ad4096f9fdc3da46928b8882b85c7171314cee1c52177b016de6d",
+      "installed_artifact_matches": true
+    }
+  },
+  "profile_session": "Result: Bundle[{active=true, ready=true}]",
+  "work_profile_id_visible_in_app": 12,
+  "work_profile_current_state_visible_in_app": "hidden",
+  "navigation_setting_written_this_install": false,
+  "sms_receive_permission_granted": true,
+  "sms_launched": true,
+  "default_sms_app": "com.android.messaging",
+  "real_sms_copy_or_delete_tested": false
+}

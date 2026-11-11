@@ -1,0 +1,228 @@
+{
+  "audit_date": "2026-10-31",
+  "application": {
+    "repository": "https://github.com/gurecn/YuyanIme",
+    "commit": "75bd0aebb7c313858437195539445b82021904d1",
+    "latest_release_at_query": "v20260530.10",
+    "release_published_at": "2026-05-30T03:05:00Z"
+  },
+  "sdk": {
+    "repository": "https://github.com/gurecn/yuyansdk",
+    "commit": "c99f9b7c451b7b77d379dab7d55fdbfb93b04b12",
+    "matches_application_submodule": true,
+    "native_source_files_in_tree": []
+  },
+  "source_fetch": "Selective source snapshot fetched from pinned GitHub raw URLs; verified against Git tree blob hashes; not a complete checkout",
+  "verified_files": [
+    {
+      "repository": "YuyanIme",
+      "path": "LICENSE",
+      "git_blob_sha1": "363d6860f966add7bb0736e32ac88e4dca8a3cba",
+      "matches_tree": true
+    },
+    {
+      "repository": "YuyanIme",
+      "path": "app/build.gradle",
+      "git_blob_sha1": "3091381214f2b7e72520710a3618a7a98d626795",
+      "matches_tree": true
+    },
+    {
+      "repository": "YuyanIme",
+      "path": "app/src/main/AndroidManifest.xml",
+      "git_blob_sha1": "f34425bc68b6904b20caf0c6a5a55e4b8cc4f9f9",
+      "matches_tree": true
+    },
+    {
+      "repository": "YuyanIme",
+      "path": "build.gradle",
+      "git_blob_sha1": "b5999ac6a824eff69a12db268e18be32dcc6084c",
+      "matches_tree": true
+    },
+    {
+      "repository": "YuyanIme",
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "git_blob_sha1": "09523c0e5490700d1a647ecf95309b5f7f9a8199",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "LICENSE",
+      "git_blob_sha1": "363d6860f966add7bb0736e32ac88e4dca8a3cba",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "README.md",
+      "git_blob_sha1": "4fdbb1e2ad9b21512f100ccec1881d231a2d395c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "build.gradle",
+      "git_blob_sha1": "0fa357c34abde88bdf9143bea20187d774e5ecf2",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/AndroidManifest.xml",
+      "git_blob_sha1": "458d4c982079e8f9c360b1b91e77d1c647c47a8c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/adapter/CandidatesMenuAdapter.kt",
+      "git_blob_sha1": "ce81262a6ec10ed0dee3e123518115836414c136",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/adapter/MenuAdapter.kt",
+      "git_blob_sha1": "7ce73f30c94f5c6b35f6062d91050fc85fc72425",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/data/SkbFunData.kt",
+      "git_blob_sha1": "de5596404e7a8c54b5a09b116be1dede2036bbfd",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/database/dao/SkbFunDao.kt",
+      "git_blob_sha1": "fcf39f19cebdaf309f6f3bb835062c85b4418df1",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/database/entry/SkbFun.kt",
+      "git_blob_sha1": "756bef0f53ea6c898df0ab94b1d1d7642e382a62",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/keyboard/InputView.kt",
+      "git_blob_sha1": "95682db8a2c6ae6d09d5fc378394729b457f757c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/keyboard/KeyboardManager.kt",
+      "git_blob_sha1": "42e856b430dde1855de1542e186540dacdeaa033",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/keyboard/SettingsMenuClick.kt",
+      "git_blob_sha1": "fff4e5ff37398ac1d85c33f3c442e558547df5a1",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/keyboard/container/InputViewParent.kt",
+      "git_blob_sha1": "b3654ed7a91777cbaf33f46a0a4bc76bfb8b97d2",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/keyboard/container/SettingsContainer.kt",
+      "git_blob_sha1": "6719acef4eeb2e7980a26463eecb8cfcc7a1486b",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/prefs/AppPrefs.kt",
+      "git_blob_sha1": "353c20127b7d7a15f7fe4299c18615c8a203a75c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/prefs/behavior/SkbMenuMode.kt",
+      "git_blob_sha1": "da54b67bbaafebcb1ef99cfbd982e293c410d379",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/service/ImeService.kt",
+      "git_blob_sha1": "7df69e48a65f4d8365b8d5d9255dffd050f05d31",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/singleton/EnvironmentSingleton.kt",
+      "git_blob_sha1": "adb8413f9f5882010ab9447ea510c3252b2fdf89",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/ui/fragment/ImeSettingsFragment.kt",
+      "git_blob_sha1": "03efbc96352d45950bc181e758fbd1ff30beac0c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/ui/fragment/InputSettingsFragment.kt",
+      "git_blob_sha1": "3c279c978cf64135545414446f036aa90e26f726",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/ui/fragment/VoiceSettingsFragment.kt",
+      "git_blob_sha1": "50323ea4111ae36c5e4e4741a5856f78c773697c",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/view/CandidatesBar.kt",
+      "git_blob_sha1": "2c8566f0194865e53c5499c86cc0ef10daa9a890",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/imemodule/view/FullDisplayKeyboardBar.kt",
+      "git_blob_sha1": "9f0b6f07f9e43103cc71d47458cd5a52037b1523",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/inputmethod/CustomEngine.kt",
+      "git_blob_sha1": "612fdc49111b0087933ad2835340922f6f787106",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/inputmethod/HWEngine.kt",
+      "git_blob_sha1": "1b0c37b1f61d72d8a51c8339661e53d991551281",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/inputmethod/RimeEngine.kt",
+      "git_blob_sha1": "be75364890f95023e2e96374ff800cfa1f33c023",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/inputmethod/core/HandWriting.kt",
+      "git_blob_sha1": "8dcc4f887f15a80b33a88ba0432ae3bf75282f73",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/java/com/yuyan/inputmethod/core/Rime.kt",
+      "git_blob_sha1": "1cc123eaf604646770b3fb326e594b810584ece7",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/res/layout/sdk_skb_container.xml",
+      "git_blob_sha1": "67c7c6c8bef71c7501c5bc2d9b008e907820d488",
+      "matches_tree": true
+    },
+    {
+      "repository": "yuyansdk",
+      "path": "src/main/res/layout/sdk_skb_holder_layout.xml",
+      "git_blob_sha1": "8977d152d63002e659f2eb25adcac4ac28fda075",
+      "matches_tree": true
+    }
+  ]
+}

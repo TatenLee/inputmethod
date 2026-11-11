@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-01",
+  "device": "emulator-5554 / API 35 ARM64",
+  "tested_apk_sha256": "f748ac834d0ad4096f9fdc3da46928b8882b85c7171314cee1c52177b016de6d",
+  "native_sms_package": "com.android.messaging",
+  "native_sms_version_code": 10001040,
+  "fixture": {
+    "only_manifest_added_permissions": [
+      "android.permission.RECEIVE_WAP_PUSH",
+      "android.permission.READ_CELL_BROADCASTS"
+    ],
+    "dex_and_resources_unchanged": true,
+    "signature": "public AOSP platform development certificate; emulator only",
+    "update_removed_after_test": true,
+    "restored_path": "package:/product/app/messaging/messaging.apk",
+    "not_in_delivery_bundle": true
+  },
+  "cases": [
+    {
+      "mode": "manual",
+      "before_rows": 13,
+      "after_rows": 12,
+      "removed_ids": [
+        13
+      ],
+      "removed_only_intended_synthetic_otp": true,
+      "all_other_rows_unchanged": true,
+      "clipboard_verified_after_delete": true,
+      "clipboard_log": "sms-manual-delete-clipboard-test.txt"
+    },
+    {
+      "mode": "auto",
+      "before_rows": 14,
+      "after_rows": 13,
+      "removed_ids": [
+        13
+      ],
+      "removed_only_intended_synthetic_otp": true,
+      "all_other_rows_unchanged": true,
+      "clipboard_verified_after_delete": true,
+      "clipboard_log": "sms-auto-delete-clipboard-test.txt"
+    }
+  ],
+  "a11y_restored_disabled": true,
+  "airplane_mode_restored_enabled": true,
+  "tool_deletion_mode_restored_keep": true,
+  "physical_devices_modified": false
+}

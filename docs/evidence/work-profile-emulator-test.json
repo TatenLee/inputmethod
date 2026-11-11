@@ -1,0 +1,10 @@
+{
+  "environment": "Android 15 AOSP ARM64 emulator",
+  "user": 10,
+  "test_key": "jianxin_test_hide_nav_bar",
+  "scope": "Synthetic setting tests profile isolation and rollback; does not test Moto gesture UI.",
+  "passed": true,
+  "backup_before_write": true,
+  "work_profile_only": true,
+  "original_missing_key_restored": true
+}

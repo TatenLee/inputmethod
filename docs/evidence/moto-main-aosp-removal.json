@@ -1,0 +1,23 @@
+{
+  "date_local": "2026-11-01",
+  "model": "Moto X40 / XT2301-5",
+  "android": 16,
+  "target_user": 0,
+  "package": "com.android.inputmethod.latin",
+  "ordinary_adb_result": "Failure: package is non-disable",
+  "actual_method": "temporary instrumentation -> PackageInstaller.uninstall, user 0",
+  "uninstall_result": "DELETE_SUCCEEDED",
+  "flags": [
+    "DELETE_KEEP_DATA",
+    "DELETE_SYSTEM_APP"
+  ],
+  "installed_before": true,
+  "installed_after": false,
+  "work_and_other_users_unchanged": true,
+  "yuyan_and_sogou_unchanged": true,
+  "default_ime_after": "com.yuyan.pinyin.offline.release/com.yuyan.imemodule.service.ImeService",
+  "enabled_imes_after": "com.yuyan.pinyin.offline.release/com.yuyan.imemodule.service.ImeService:com.sohu.inputmethod.sogou.moto/com.sohu.inputmethod.sogou.SogouIME",
+  "navigation_overlays_unchanged": true,
+  "temporary_helper_and_test_removed_from_personal_user": true,
+  "wrong_user_guard_tests_passed": 2
+}

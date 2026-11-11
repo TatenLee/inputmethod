@@ -1,0 +1,637 @@
+{
+  "file": "SogouInput_v11.3_OEM_Offline_Mod_NoIcon_Lfqy.apk",
+  "size": 97607516,
+  "sha256": "fdd8880bc8924f4aeeb7beefaa6167134398abf0abdcbbe7c8f866bd87ac019e",
+  "manifest": {
+    "@xmlns:android": "http://schemas.android.com/apk/res/android",
+    "@android:versionCode": "1621",
+    "@android:versionName": "11.3",
+    "@android:compileSdkVersion": "23",
+    "@android:compileSdkVersionCodename": "6.0-2438415",
+    "@package": "com.sohu.inputmethod.sogou.oem",
+    "@platformBuildVersionCode": "30",
+    "@platformBuildVersionName": "11",
+    "uses-sdk": {
+      "@android:minSdkVersion": "21",
+      "@android:targetSdkVersion": "29"
+    }
+  },
+  "native_libraries": [
+    {
+      "path": "lib/armeabi/libCtaApiLib.so",
+      "size": 296828,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libSGMtlgShell.so",
+      "size": 3591484,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libSogouAgc_v1.so",
+      "size": 247084,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libac_checker.so",
+      "size": 148080,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libaffinity.so",
+      "size": 189984,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libc++_shared.so",
+      "size": 677472,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libcleanmmap.so",
+      "size": 126392,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libcrash_collect.so",
+      "size": 136756,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libframesequence.so",
+      "size": 255692,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libframesequence_doutu.so",
+      "size": 210436,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libdl.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libkoom-java.so",
+      "size": 9848,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "libxhook_lib.so",
+        "libkwai-linker.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libkwai-linker.so",
+      "size": 99936,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/liblogan.so",
+      "size": 50672,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libluajava.so",
+      "size": 156932,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libmarsxlog.so",
+      "size": 91800,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libc++_shared.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libmmkv.so",
+      "size": 137400,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libnative-sec.so",
+      "size": 133108,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libopus_v1.so",
+      "size": 292512,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "libm.so",
+        "liblog.so",
+        "libstdc++.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libostar.so",
+      "size": 81820,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libqmp.so",
+      "size": 121112,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libz.so",
+        "libstdc++.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libsimple_vad.so",
+      "size": 202208,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libsimplevadwrapper.so",
+      "size": 18008,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "libsimple_vad.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libsogou_speex_nt_v01.so",
+      "size": 289968,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libsogouupdcore.so",
+      "size": 13808,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libstdc++.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libtrace-canary.so",
+      "size": 530240,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libvivo_account_wave.so",
+      "size": 17656,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libstdc++.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libweibosdkcore.so",
+      "size": 21752,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libwind.so",
+      "size": 34416,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libxgVipSecurity.so",
+      "size": 38480,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libstdc++.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "lib/armeabi/libxhook_lib.so",
+      "size": 163420,
+      "bits": 32,
+      "machine": "EM_ARM",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "load_alignment": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "embedded_elf": [
+    {
+      "path": "assets/libwbsafeedit",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 17636
+    },
+    {
+      "path": "assets/libwbsafeedit_64",
+      "bits": 64,
+      "e_machine": 183,
+      "size": 18024
+    },
+    {
+      "path": "assets/libwbsafeedit_x86",
+      "bits": 32,
+      "e_machine": 3,
+      "size": 17600
+    },
+    {
+      "path": "assets/libwbsafeedit_x86_64",
+      "bits": 64,
+      "e_machine": 62,
+      "size": 18344
+    },
+    {
+      "path": "assets/raw/gpen_handwriter_32",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 2762144
+    },
+    {
+      "path": "assets/raw/gpen_handwriter_64",
+      "bits": 64,
+      "e_machine": 183,
+      "size": 3692440
+    },
+    {
+      "path": "assets/raw/sogouime",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 2197492
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/common/armeabi/libevalite.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 1576664
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/common/armeabi/libomp.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 368568
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/lstmvad_neon/armeabi/libvadwrapper.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 329656
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/lstmvad_neon/armeabi/libvad.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 1398312
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/punctuator/armeabi/libpunctuatorwrapper.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 715044
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/punctuator/armeabi/libpunctuator.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 620112
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/offlineasr/armeabi/libc++_shared.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 677448
+    },
+    {
+      "path": "assets/offline_full_v5_32.zip!/libs/offlineasr/armeabi/libbutterfly.so",
+      "bits": 32,
+      "e_machine": 40,
+      "size": 545524
+    }
+  ],
+  "audit_date": "2026-10-31",
+  "scope": {
+    "method": "Static ZIP, Android binary XML and ELF inspection only; no APK execution or complete decompilation",
+    "standard_library_abis": [
+      "armeabi"
+    ],
+    "standard_library_count": 30,
+    "nested_archives_inspected": [
+      "assets/offline_full_v5_32.zip",
+      "assets/fanlingxi.zip"
+    ],
+    "note": "Embedded 64-bit helper files exist, but no complete arm64-v8a library set is packaged. This inspection does not establish which helpers are loaded at runtime."
+  }
+}

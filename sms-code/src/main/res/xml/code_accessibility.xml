@@ -1,0 +1,7 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_description"
+    android:accessibilityEventTypes="typeNotificationStateChanged|typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric" android:notificationTimeout="150"
+    android:accessibilityFlags="flagReportViewIds" android:canRetrieveWindowContent="true"
+    android:canPerformGestures="false" android:isAccessibilityTool="false"
+    android:settingsActivity="indi.taten.smscode.MainActivity" />

@@ -1,0 +1,7 @@
+{
+  "device": "Android 15 ARM64 emulator",
+  "activation_log": "已安装控制 APK，正在激活…\n激活完成。可拔掉 USB，在手机 APK 中选择工作空间并切换横条。\n激活本身没有修改导航设置；重启或进程结束后需要再次运行此脚本。\n",
+  "before_disconnect": "Result: Bundle[{active=true, ready=true}]",
+  "after_adb_transport_reconnect": "Result: Bundle[{active=true, ready=true}]",
+  "after_stop_button": "Result: Bundle[{active=false, ready=false}]"
+}

@@ -1,0 +1,166 @@
+{
+  "repository": "https://github.com/Cyletix/CyIME",
+  "commit": "5eba9938c8e3eb3a789685cda2d9df68c03ed1c7",
+  "branch": "main",
+  "date": "2026-10-31",
+  "commit_resolution": "GitHub repository page currentOid; GitHub API requests returned rate limit errors",
+  "scope": "Selective source inspection only; no build, APK inspection or device test",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5115,
+      "sha256": "ed663cb86c9f69f2d2e6357c7dbf7efc9de19d5b3ba5f6aa413e3ae43f9e297f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35151,
+      "sha256": "7fe14716ed31cc71fc3bf9af293c368d464a853a70ea86e9995388f6b9e929e5"
+    },
+    {
+      "path": ".gitmodules",
+      "bytes": 915,
+      "sha256": "75c5f22d979be6a68ca9c338af9c098a4165548fd975ec46ce592eb60eaba998"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 15472,
+      "sha256": "e44360de1b961a9d6cb528eda7b27aa1fe3e9b5040aa63e98c17288fa959b761"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 24498,
+      "sha256": "65cae7accc400f86418ef6dbf092eb924fc8e934b2bf8f0f4a455d28a679fbd9"
+    },
+    {
+      "path": "app/src/main/jni/CMakeLists.txt",
+      "bytes": 9307,
+      "sha256": "8b3b4d421ca47185a2fd9bfc25f926847ff1a96f7f0e64452cf64d7acadc37bd"
+    },
+    {
+      "path": "app/src/main/jni/cmake/Rime.cmake",
+      "bytes": 1789,
+      "sha256": "0373c8101778f33b410f45d9d5ad2d9dd414f7926124bc7daf9797ddf02d7632"
+    },
+    {
+      "path": "app/build-logic/tasks-native.gradle.kts",
+      "bytes": 12908,
+      "sha256": "66a385d478886354762b7fef2c464fd0bf1cc31b285bd450acac364596e4729f"
+    },
+    {
+      "path": "app/build-logic/tasks-speech.gradle.kts",
+      "bytes": 2619,
+      "sha256": "dfbc1a686e537018150da58481d0e2e90a74f92a40b0d308dbaaf73007fecdb0"
+    },
+    {
+      "path": "app/build-logic/tasks-bundled-models.gradle.kts",
+      "bytes": 980,
+      "sha256": "07f26fd8df2d5e3c940c9dc2c4bd3389268bfe0ef1a036c1f4f5ee7ccda2bc90"
+    },
+    {
+      "path": "docs/development/device-adaptation-plan.md",
+      "bytes": 26004,
+      "sha256": "6d3ae0599f19c36f70e2c7fb014e005dea7c64ed7f2ef5f66c92942445317868"
+    },
+    {
+      "path": "docs/development/input-profile-architecture.md",
+      "bytes": 18003,
+      "sha256": "b461552845074fa25d4a070df2c71ac5264959796133ded25c6763029a0bc787"
+    },
+    {
+      "path": "docs/development/t9-algorithm-regression.md",
+      "bytes": 14200,
+      "sha256": "76a8bd9669ff6065ced15d32dcf25d4829e5e86e666096c23281d4aa3557a0f9"
+    },
+    {
+      "path": "scripts/prepare-bundled-models.py",
+      "bytes": 6240,
+      "sha256": "01411291a35118f1556399e5acabca929bebc93d217c0941e358cd245e4034d0"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/service/VoiceRecognitionHandler.kt",
+      "bytes": 23372,
+      "sha256": "51f69f460b78ebb07e2b126a4914ae1038670ea10d5883fcf236c6c8e4c44d1b"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/speech/AsrSupport.kt",
+      "bytes": 2064,
+      "sha256": "17515a80a15765cd4be36bcf419d1840cc64ec0eac1b5cfea661f607e39f2419"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/model/BundledModelInstaller.kt",
+      "bytes": 5932,
+      "sha256": "efa091f170818da1bb59ac4ddf53026baac277c6a0ffbe10ce0813e8017b4a37"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/service/XimeInputMethodService.kt",
+      "bytes": 257808,
+      "sha256": "3a0578d19882c80d8dcb2866b9fa29849889c0d2e9c53017eb0b7eb81ae53236"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/service/ImeBottomSpace.kt",
+      "bytes": 321,
+      "sha256": "1307d0bcbb63471e88122e22524e396c96c303a166f3512c99ea725e604b12b4"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/service/ImeWindowInsets.kt",
+      "bytes": 4778,
+      "sha256": "7e667f01305e930d226d5076bf7a154c616452065a3849833a08f785305f6185"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/settings/KeyboardHeightProfiles.kt",
+      "bytes": 6327,
+      "sha256": "20aef9d68429e8b8b0559b0e955189d1c3311b0593b2b33c191d9ec65161a153"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/settings/SettingsPreferences.kt",
+      "bytes": 47994,
+      "sha256": "9618877d9f6525baf7ab28b853d84d29135eda0566edf65c4475e1c8c4e2bc6d"
+    },
+    {
+      "path": "app/src/main/jni/librime_jni/CMakeLists.txt",
+      "bytes": 993,
+      "sha256": "80ef30d3e3abbab646bdec943ed04f5aea0874a3807556d902f711da9c6e50e2"
+    },
+    {
+      "path": "app/src/main/jni/librime_jni/rime_jni.cc",
+      "bytes": 125512,
+      "sha256": "1b3a45f1aec52b750f1ec062cf6608089a6cf232a218835fe5fd3fbde5bcc84c"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/ui/menubar/ToolbarCustomizeView.kt",
+      "bytes": 7765,
+      "sha256": "6ad1e576fe2d802d6fbe7e4ddc5daf0db38ee295db8f38f7f3ce8686fea172e0"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/ui/menubar/LongPressReorder.kt",
+      "bytes": 1342,
+      "sha256": "27afa3297441e54e0066d513e06305fe9376be5b8cf3789c104b38c6550533c2"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/keyboard/ToolbarButton.kt",
+      "bytes": 6324,
+      "sha256": "b440521c88c3a62f8e78ba929de190a44b266e1e15b724bd5a771c8497b766e9"
+    },
+    {
+      "path": "app/src/main/java/com/kingzcheung/xime/keyboard/QuickActionLayout.kt",
+      "bytes": 3565,
+      "sha256": "52d1c1052d9d9bf6b49eb8a0d3b66d11e5865e3c241d1b9beaae043020d55d56"
+    }
+  ],
+  "source_build_metadata": {
+    "versionName": "1.15.14",
+    "versionCode": "20261366",
+    "minSdk": "28",
+    "targetSdk": "35",
+    "compileSdk": "36",
+    "ndkVersion": "29.0.14206865"
+  },
+  "validation": {
+    "downloaded_files_hashed": 28,
+    "source_path": "Pinned GitHub raw URLs",
+    "git_blob_hashes_independently_verified": false,
+    "android_build_run": false,
+    "apk_native_audit_run": false,
+    "device_tests_run": false
+  }
+}

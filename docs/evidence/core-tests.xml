@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-31T05:37:20.228Z" hostname="ShawndeMacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="systemBarIsCountedOnce" classname="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" time="0.003"/>
+  <testcase name="upgradeKeepsOrderDropsDuplicatesAndAppendsMissingActions" classname="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" time="0.001"/>
+  <testcase name="oldSpeechCannotEnterNewEditorEvenAfterReturning" classname="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" time="0.0"/>
+  <testcase name="toolbarOrderSurvivesRoundTrip" classname="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" time="0.0"/>
+  <testcase name="rotationUsesNewWindowWithoutGrowingPastIt" classname="indi.tatenlee.inputmethod.core.PreferencesRegressionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,44 @@
+{
+  "profile-control": {
+    "package": "indi.taten.workprofile",
+    "bytes": 57072,
+    "sha256": "c6b89f7ebb37e7c50d26dbf6e3d92c3f9291142032329d8fb58b42ae6c461b89",
+    "uses_permissions": [],
+    "native_libraries": [],
+    "common_network_references": [],
+    "checked_network_references": [
+      "Ljava/net/Socket;",
+      "Ljava/net/DatagramSocket;",
+      "Ljava/net/URLConnection;",
+      "Ljava/net/HttpURLConnection;",
+      "Ljavax/net/ssl/SSLSocket;",
+      "Landroid/webkit/WebView;",
+      "Lokhttp3/OkHttpClient;",
+      "Lretrofit2/Retrofit;"
+    ],
+    "signature_verified": true,
+    "artifact": "dist/profile-control-0.1.0-offline-debug.apk"
+  },
+  "sms-code": {
+    "package": "indi.taten.smscode",
+    "bytes": 101250,
+    "sha256": "f748ac834d0ad4096f9fdc3da46928b8882b85c7171314cee1c52177b016de6d",
+    "uses_permissions": [
+      "android.permission.RECEIVE_SMS"
+    ],
+    "native_libraries": [],
+    "common_network_references": [],
+    "checked_network_references": [
+      "Ljava/net/Socket;",
+      "Ljava/net/DatagramSocket;",
+      "Ljava/net/URLConnection;",
+      "Ljava/net/HttpURLConnection;",
+      "Ljavax/net/ssl/SSLSocket;",
+      "Landroid/webkit/WebView;",
+      "Lokhttp3/OkHttpClient;",
+      "Lretrofit2/Retrofit;"
+    ],
+    "signature_verified": true,
+    "artifact": "dist/sms-code-0.1.0-offline-debug.apk"
+  }
+}

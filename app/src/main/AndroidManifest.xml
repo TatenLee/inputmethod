@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" android:allowBackup="false" android:supportsRtl="true"
+        android:usesCleartextTraffic="false">
+        <activity android:name=".settings.SettingsActivity" android:exported="true"
+            android:excludeFromRecents="true" android:windowSoftInputMode="adjustResize" />
+        <service android:name=".ime.JianxinInputMethodService"
+            android:permission="android.permission.BIND_INPUT_METHOD" android:exported="true">
+            <intent-filter><action android:name="android.view.InputMethod" /></intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/input_method" />
+        </service>
+        <activity android:name=".settings.LicensesActivity" android:exported="false"
+            android:excludeFromRecents="true" />
+    </application>
+</manifest>

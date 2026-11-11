@@ -1,0 +1,9 @@
+config_version: '0.1.0'
+schema_list:
+  - schema: jianxin_pinyin
+  - schema: jianxin_t9
+menu:
+  page_size: 8
+switcher:
+  caption: 简心
+  hotkeys: []

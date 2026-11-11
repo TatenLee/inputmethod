@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-03",
+  "device": "Moto X40 / XT2301-5 / Android 16",
+  "scope": "User-reported blank app permissions page in Shelter work profile user 12",
+  "verified": {
+    "permission_controller_user12_installed_enabled_not_hidden": true,
+    "settings_user12_installed_enabled_not_hidden": true,
+    "deviceguard_user12_installed_enabled_not_hidden": true,
+    "permission_policy_users_0_and_12": "0 / PERMISSION_POLICY_PROMPT",
+    "permission_controller_routes_managed_profile_to_deviceguard_in_user0": true,
+    "route_includes_package_uid_and_user_id": true,
+    "vendor_permission_cache_has_getInstalledPackagesAsUser_flags0_user0": true,
+    "observed_personal_sms_permissions_page_populated": true,
+    "reproduced_blank_work_app": "com.ss.android.auto / user 12 / uid 1210604",
+    "reproduced_blank_activity": "user 0 com.motorola.deviceguard/.permission.activity.StateListActivity",
+    "app_installed_user12_not_user0": true,
+    "native_permission_groups_visible_with_work_badge": true,
+    "native_microphone_allow_ask_deny_options_visible": true,
+    "work_runtime_permission_records_unchanged_after_native_ui_probe": 16,
+    "deviceguard_entry_requires_signature_permission": "com.motorola.deviceguard.permission.LAUNCH_PERMISSION_MANAGER",
+    "adb_shell_direct_vendor_activity_launch_denied": true
+  },
+  "pending": "Final APK application-picker integration verification after physical phone unlock.",
+  "changes_applied": [
+    "Installed and ADB-activated indi.taten.workprofile 0.2.0 with alternative native permission UI entry. Original Moto system entry remains unchanged."
+  ],
+  "source_files": [
+    "MotoPermissionUtils.java",
+    "ManagePermissionsActivity-full.java",
+    "PermissionDataManager.java"
+  ],
+  "decompilation_note": "Some methods contain JADX warnings; do not infer detailed branch behavior from the failed reconstructed methods alone.",
+  "diagnosis": "Observed OEM cross-profile routing problem: work app permissions are redirected to user-0 DeviceGuard, whose cache lookup does not correctly populate this work-only app. Android native permission data and controls still work when explicitly passed the work UserHandle.",
+  "limitations": [
+    "Does not repair the original launcher -> App info -> Permissions path.",
+    "No package permission grants/revokes performed.",
+    "Native navigation graph is an internal system implementation and may change after OS updates."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "sdk_commit": "c99f9b7c451b7b77d379dab7d55fdbfb93b04b12",
+  "method": "Read first 65536 bytes; inspect ELF headers and PT_LOAD only; no execution, no full binary verification",
+  "libraries": [
+    {
+      "path": "libs/arm64-v8a/libSogouShell.so",
+      "source_blob_sha": "da5db154ba38d103d4df63d225b2aafa553b3c30",
+      "full_size": 7629352,
+      "bytes_read": 65536,
+      "bits": 64,
+      "e_machine": 183,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "align": 4096
+        },
+        {
+          "offset": 7427368,
+          "vaddr": 7431464,
+          "align": 4096
+        }
+      ],
+      "load_alignment_at_least_16kb": false
+    },
+    {
+      "path": "libs/arm64-v8a/libgpen_handwriter.so",
+      "source_blob_sha": "cf46759e06404b98db7fba84a10824f5b27db65e",
+      "full_size": 2740256,
+      "bytes_read": 65536,
+      "bits": 64,
+      "e_machine": 183,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "align": 65536
+        },
+        {
+          "offset": 2671528,
+          "vaddr": 2737064,
+          "align": 65536
+        }
+      ],
+      "load_alignment_at_least_16kb": true
+    },
+    {
+      "path": "libs/arm64-v8a/libhandwriting.so",
+      "source_blob_sha": "f57f539a02cb20445650614b098d1473ab52b5c5",
+      "full_size": 913776,
+      "bytes_read": 65536,
+      "bits": 64,
+      "e_machine": 183,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "align": 4096
+        },
+        {
+          "offset": 877392,
+          "vaddr": 881488,
+          "align": 4096
+        },
+        {
+          "offset": 910888,
+          "vaddr": 919080,
+          "align": 4096
+        }
+      ],
+      "load_alignment_at_least_16kb": false
+    },
+    {
+      "path": "libs/arm64-v8a/libhwInterface.so",
+      "source_blob_sha": "98ea01250f2c9218fda0e18de57cc3f3c2dfe563",
+      "full_size": 46552,
+      "bytes_read": 46552,
+      "bits": 64,
+      "e_machine": 183,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "align": 4096
+        },
+        {
+          "offset": 42304,
+          "vaddr": 46400,
+          "align": 4096
+        },
+        {
+          "offset": 44168,
+          "vaddr": 52360,
+          "align": 4096
+        }
+      ],
+      "load_alignment_at_least_16kb": false
+    },
+    {
+      "path": "libs/arm64-v8a/libyuyanime.so",
+      "source_blob_sha": "5bdcef1951077eb0bc5244c828000c8919f955e2",
+      "full_size": 4387768,
+      "bytes_read": 65536,
+      "bits": 64,
+      "e_machine": 183,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "align": 16384
+        },
+        {
+          "offset": 4268592,
+          "vaddr": 4284976,
+          "align": 16384
+        },
+        {
+          "offset": 4383144,
+          "vaddr": 4415912,
+          "align": 16384
+        }
+      ],
+      "load_alignment_at_least_16kb": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "device_model": "Moto X40 / XT2301-5",
+  "android": 16,
+  "personal_user": 0,
+  "work_user": 12,
+  "overlay": {
+    "package": "com.android.internal.systemui.navbar.hidegestural",
+    "before": {
+      "0": true,
+      "12": false
+    },
+    "after": {
+      "0": true,
+      "12": true
+    }
+  },
+  "white_pill_user_confirmed_gone": true,
+  "packages": {
+    "com.android.inputmethod.latin": {
+      "0": {
+        "installed": "true",
+        "hidden": "false",
+        "enabled": "0"
+      },
+      "12": {
+        "installed": "false",
+        "hidden": "false",
+        "enabled": "0"
+      }
+    },
+    "com.yuyan.pinyin.offline.release": {
+      "0": {
+        "installed": "true",
+        "hidden": "false",
+        "enabled": "0"
+      },
+      "12": {
+        "installed": "true",
+        "hidden": "false",
+        "enabled": "0"
+      }
+    },
+    "indi.tatenlee.inputmethod": {
+      "0": {
+        "installed": "true",
+        "hidden": "false",
+        "enabled": "0"
+      },
+      "12": {
+        "installed": "true",
+        "hidden": "false",
+        "enabled": "0"
+      }
+    }
+  },
+  "personal_ime_settings_unchanged": true,
+  "work_debugging_restriction_retained": true,
+  "root_used": false,
+  "work_profile_recreated": false,
+  "jianxin_apk_version": "0.1.1",
+  "jianxin_apk_sha256": "1f080625f2e45454084fd36bd08e91d2c2ca1cc894766e715e3ef66eeee34751",
+  "temporary_instrumentation_removed": true
+}

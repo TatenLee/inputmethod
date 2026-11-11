@@ -1,0 +1,101 @@
+> Task :profile-control:preBuild UP-TO-DATE
+> Task :sms-code:preBuild UP-TO-DATE
+> Task :profile-control:preDebugBuild UP-TO-DATE
+> Task :sms-code:preDebugBuild UP-TO-DATE
+> Task :sms-code:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :profile-control:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :profile-control:javaPreCompileDebug UP-TO-DATE
+> Task :sms-code:javaPreCompileDebug UP-TO-DATE
+> Task :profile-control:checkDebugAarMetadata UP-TO-DATE
+> Task :sms-code:checkDebugAarMetadata UP-TO-DATE
+> Task :profile-control:generateDebugResValues UP-TO-DATE
+> Task :sms-code:generateDebugResValues UP-TO-DATE
+> Task :profile-control:mapDebugSourceSetPaths UP-TO-DATE
+> Task :sms-code:mapDebugSourceSetPaths UP-TO-DATE
+> Task :profile-control:generateDebugResources UP-TO-DATE
+> Task :sms-code:generateDebugResources UP-TO-DATE
+> Task :profile-control:mergeDebugResources UP-TO-DATE
+> Task :sms-code:mergeDebugResources UP-TO-DATE
+> Task :sms-code:packageDebugResources UP-TO-DATE
+> Task :profile-control:packageDebugResources UP-TO-DATE
+> Task :profile-control:parseDebugLocalResources UP-TO-DATE
+> Task :sms-code:parseDebugLocalResources UP-TO-DATE
+> Task :profile-control:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :sms-code:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :profile-control:extractDeepLinksDebug UP-TO-DATE
+> Task :sms-code:extractDeepLinksDebug UP-TO-DATE
+> Task :profile-control:processDebugMainManifest UP-TO-DATE
+> Task :sms-code:processDebugMainManifest UP-TO-DATE
+> Task :sms-code:processDebugManifest UP-TO-DATE
+> Task :profile-control:processDebugManifest UP-TO-DATE
+> Task :sms-code:processDebugManifestForPackage UP-TO-DATE
+> Task :profile-control:processDebugManifestForPackage UP-TO-DATE
+> Task :profile-control:processDebugResources UP-TO-DATE
+> Task :sms-code:processDebugResources UP-TO-DATE
+> Task :profile-control:compileDebugJavaWithJavac UP-TO-DATE
+> Task :profile-control:mergeDebugShaders UP-TO-DATE
+> Task :profile-control:compileDebugShaders NO-SOURCE
+> Task :profile-control:generateDebugAssets UP-TO-DATE
+> Task :profile-control:mergeDebugAssets UP-TO-DATE
+> Task :profile-control:compressDebugAssets UP-TO-DATE
+> Task :profile-control:desugarDebugFileDependencies UP-TO-DATE
+> Task :profile-control:dexBuilderDebug UP-TO-DATE
+> Task :profile-control:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :profile-control:processDebugJavaRes NO-SOURCE
+> Task :profile-control:mergeDebugJavaResource UP-TO-DATE
+> Task :profile-control:checkDebugDuplicateClasses UP-TO-DATE
+> Task :profile-control:mergeExtDexDebug UP-TO-DATE
+> Task :profile-control:mergeLibDexDebug UP-TO-DATE
+> Task :profile-control:mergeProjectDexDebug UP-TO-DATE
+> Task :profile-control:mergeDebugJniLibFolders UP-TO-DATE
+> Task :profile-control:mergeDebugNativeLibs NO-SOURCE
+> Task :profile-control:stripDebugDebugSymbols NO-SOURCE
+> Task :profile-control:validateSigningDebug UP-TO-DATE
+> Task :profile-control:verifyDebugOfflinePolicy
+> Task :profile-control:writeDebugAppMetadata UP-TO-DATE
+> Task :profile-control:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :profile-control:packageDebug UP-TO-DATE
+> Task :profile-control:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :profile-control:assembleDebug
+> Task :profile-control:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :profile-control:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :profile-control:preDebugUnitTestBuild UP-TO-DATE
+> Task :profile-control:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :profile-control:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+> Task :profile-control:processDebugUnitTestJavaRes NO-SOURCE
+> Task :profile-control:testDebugUnitTest UP-TO-DATE
+> Task :sms-code:compileDebugJavaWithJavac
+> Task :sms-code:mergeDebugShaders UP-TO-DATE
+> Task :sms-code:compileDebugShaders NO-SOURCE
+> Task :sms-code:generateDebugAssets UP-TO-DATE
+> Task :sms-code:mergeDebugAssets UP-TO-DATE
+> Task :sms-code:compressDebugAssets UP-TO-DATE
+> Task :sms-code:desugarDebugFileDependencies UP-TO-DATE
+> Task :sms-code:dexBuilderDebug
+> Task :sms-code:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :sms-code:processDebugJavaRes NO-SOURCE
+> Task :sms-code:mergeDebugJavaResource UP-TO-DATE
+> Task :sms-code:checkDebugDuplicateClasses UP-TO-DATE
+> Task :sms-code:mergeExtDexDebug UP-TO-DATE
+> Task :sms-code:mergeLibDexDebug UP-TO-DATE
+> Task :sms-code:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sms-code:mergeDebugNativeLibs NO-SOURCE
+> Task :sms-code:stripDebugDebugSymbols NO-SOURCE
+> Task :sms-code:validateSigningDebug UP-TO-DATE
+> Task :sms-code:verifyDebugOfflinePolicy
+> Task :sms-code:writeDebugAppMetadata UP-TO-DATE
+> Task :sms-code:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :sms-code:preDebugUnitTestBuild UP-TO-DATE
+> Task :sms-code:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :sms-code:processDebugUnitTestJavaRes NO-SOURCE
+> Task :sms-code:bundleDebugClassesToCompileJar
+> Task :sms-code:bundleDebugClassesToRuntimeJar
+> Task :sms-code:mergeProjectDexDebug
+> Task :sms-code:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+> Task :sms-code:testDebugUnitTest
+> Task :sms-code:packageDebug
+> Task :sms-code:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :sms-code:assembleDebug
+
+BUILD SUCCESSFUL in 2s
+76 actionable tasks: 9 executed, 67 up-to-date

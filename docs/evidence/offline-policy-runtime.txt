@@ -1,0 +1,6 @@
+--------- beginning of main
+11-01 01:03:49.807  2252  2266 I JianxinTest: Public speech fixture: 开饭时间早上9点至下午5点。
+11-01 01:03:50.228  2252  2266 I JianxinOfflineTest: Socket denied: domain=2 type=1 errno=1 uid=10148
+11-01 01:03:50.229  2252  2266 I JianxinOfflineTest: Socket denied: domain=2 type=2 errno=1 uid=10148
+11-01 01:03:50.229  2252  2266 I JianxinOfflineTest: Socket denied: domain=10 type=1 errno=1 uid=10148
+11-01 01:03:50.231  2252  2266 I JianxinOfflineTest: Socket denied: domain=10 type=2 errno=1 uid=10148

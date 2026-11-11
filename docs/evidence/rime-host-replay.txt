@@ -1,0 +1,6 @@
+PASS jianxin_pinyin nihao → 你好
+PASS jianxin_pinyin zhongguo → 中国
+PASS jianxin_pinyin shurufa → 输入法
+PASS jianxin_pinyin nh → 你好
+PASS jianxin_t9 64426 → 你好
+PASS jianxin_t9 94664486 → 中国

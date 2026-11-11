@@ -1,0 +1,166 @@
+{
+  "serial": "emulator-5554",
+  "rotations": [
+    {
+      "rotation": 1,
+      "screen": [
+        2400,
+        1080
+      ],
+      "root": [
+        2400,
+        777
+      ],
+      "keyboard": [
+        2400,
+        630
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 0,
+      "screen": [
+        1080,
+        2400
+      ],
+      "root": [
+        1080,
+        966
+      ],
+      "keyboard": [
+        1080,
+        819
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 1,
+      "screen": [
+        2400,
+        1080
+      ],
+      "root": [
+        2400,
+        777
+      ],
+      "keyboard": [
+        2400,
+        630
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 0,
+      "screen": [
+        1080,
+        2400
+      ],
+      "root": [
+        1080,
+        966
+      ],
+      "keyboard": [
+        1080,
+        819
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 1,
+      "screen": [
+        2400,
+        1080
+      ],
+      "root": [
+        2400,
+        777
+      ],
+      "keyboard": [
+        2400,
+        630
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 0,
+      "screen": [
+        1080,
+        2400
+      ],
+      "root": [
+        1080,
+        966
+      ],
+      "keyboard": [
+        1080,
+        819
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 1,
+      "screen": [
+        2400,
+        1080
+      ],
+      "root": [
+        2400,
+        777
+      ],
+      "keyboard": [
+        2400,
+        630
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 0,
+      "screen": [
+        1080,
+        2400
+      ],
+      "root": [
+        1080,
+        966
+      ],
+      "keyboard": [
+        1080,
+        819
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 1,
+      "screen": [
+        2400,
+        1080
+      ],
+      "root": [
+        2400,
+        777
+      ],
+      "keyboard": [
+        2400,
+        630
+      ],
+      "bottom": 147
+    },
+    {
+      "rotation": 0,
+      "screen": [
+        1080,
+        2400
+      ],
+      "root": [
+        1080,
+        966
+      ],
+      "keyboard": [
+        1080,
+        819
+      ],
+      "bottom": 147
+    }
+  ],
+  "passed": true
+}

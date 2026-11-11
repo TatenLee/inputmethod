@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="indi.taten.smscode.core.OtpExtractorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T02:07:29.076Z" hostname="ShawndeMacBook-Pro.local" time="0.014">
+  <properties/>
+  <testcase name="neverConfirmsConversationOrBulkDeletion" classname="indi.taten.smscode.core.OtpExtractorTest" time="0.001"/>
+  <testcase name="extractsChineseEnglishAndAlphanumericCodes" classname="indi.taten.smscode.core.OtpExtractorTest" time="0.01"/>
+  <testcase name="refusesOrdersTelephoneNumbersAmbiguousAndOversizedTexts" classname="indi.taten.smscode.core.OtpExtractorTest" time="0.002"/>
+  <testcase name="automaticDeletionRequiresExactRecentCopiedSingleMessage" classname="indi.taten.smscode.core.OtpExtractorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

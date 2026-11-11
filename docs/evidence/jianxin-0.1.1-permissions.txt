@@ -1,0 +1,2 @@
+package: indi.tatenlee.inputmethod
+uses-permission: name='android.permission.RECORD_AUDIO'

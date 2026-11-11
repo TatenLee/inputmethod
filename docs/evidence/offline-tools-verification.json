@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "test_device": "Android 15 / API 35 ARM64 emulator",
+  "rule_tests_passed": 7,
+  "device_tests_passed": 9,
+  "background_copy": {
+    "accessibility_disabled": true,
+    "app_in_background": true,
+    "receive_sms_granted": true,
+    "ordinary_sms_did_not_replace_code": true
+  },
+  "profile_activation": "passed, including ADB transport reconnect and stop button",
+  "profile_actual_overlay_switch": "not verified in new APK; emulator has no supported overlay; earlier Moto helper success is separate evidence",
+  "sms_actual_deletion": "manual button and automatic-on-open native deletion passed with permission-repaired AOSP Messaging emulator fixture; only intended SMS removed and newest clipboard retained; fixture rolled back; see sms-native-deletion-verification.json",
+  "standalone_source_build": "passed",
+  "physical_devices_modified_this_task": false,
+  "additional_native_deletion_scenarios_passed": 2
+}

@@ -1,0 +1,61 @@
+{
+  "apk": "dist/jianxin-0.1.1-arm64-offline-noicon-debug.apk",
+  "bytes": 284181298,
+  "sha256": "1f080625f2e45454084fd36bd08e91d2c2ca1cc894766e715e3ef66eeee34751",
+  "manifest_policy": {
+    "permissions": [
+      "android.permission.RECORD_AUDIO"
+    ],
+    "launcher_entry": false,
+    "shared_uid": false
+  },
+  "dex": [
+    {
+      "name": "classes.dex",
+      "network_api_references": []
+    }
+  ],
+  "native_libraries": [
+    {
+      "name": "lib/arm64-v8a/libc++_shared.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "network_imports": [],
+      "zip_offset": 344064,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b"
+    },
+    {
+      "name": "lib/arm64-v8a/libjianxin_rime.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "network_imports": [],
+      "zip_offset": 1720320,
+      "sha256": "db7c53be1d6c9245b461d118cc769271445a2a9ee03f817bcc12a6921c84b898"
+    },
+    {
+      "name": "lib/arm64-v8a/libsherpa-onnx-jni.so",
+      "elf": 64,
+      "machine": 183,
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "network_imports": [],
+      "zip_offset": 6340608,
+      "sha256": "b4a53d915c19cb6d09b1cdc9a8084be54419b647aab9097ffdfb46f30c3c4dd8"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
